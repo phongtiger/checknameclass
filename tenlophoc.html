@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    function checkNameClass(str) {
+        let a = /^[CAP]+\d{4}[GHIKLM]$/;
+        if(a.test(str)){
+            return true
+        }else return false;
+    }
+    let b = 'C0310G';
+    console.log(checkNameClass(b));
+
+</script>
+</html>
